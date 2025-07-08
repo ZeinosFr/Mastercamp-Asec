@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard Réseau - ASec</title>
+  <link href="https://cdn.jsdelivr.net/npm/gridstack@9.2.1/dist/gridstack.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/gridstack@9.2.1/dist/gridstack-all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/smoothie@1.36/smoothie.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+ <h1 data-i18n="dashboard_title">🔐 Dashboard Réseau – ASec</h1>
+
+<div class="header-controls">
+  <button onclick="toggleWidgetMenu()" data-i18n="add_widget">➕ Widgets</button>
+  <button onclick="toggleDarkMode()" data-i18n="dark_mode">🌙 Mode Sombre</button>
+  <button onclick="toggleLanguage()" data-i18n="language">🌐 Langue</button>
+</div>
+
+
+  </header>
+  <div class="grid-stack"></div>
+    <script src="script_widgets.js"></script>
+  <script src="script_core.js"></script>
+</body>
+</html>
+
